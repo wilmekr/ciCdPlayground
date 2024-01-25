@@ -4,25 +4,25 @@ new App({
 	target: document.body,
 	props: {
 		// What's your name?
-		name: 'James Butler',
+		name: 'Richard Wilmek',
 		// In the following fiels you can either give a single string, 
 		// or an array of bullet points
 		
 		// What do you associate with the term 'CI/CD'?
 		associations: [
-			'Ehm, what?'
+			'Continuous Integration and Continuous Deployment'
 		],
 		// Which CI/CD tools do you use in your project?
-		tools: 'Jenkins, maybe?',
+		tools: 'Jenkins, for sure!',
 		// What do you want to learn in this workshop? 
 		expectations: [
-			'what you are talking about'
+			'How to create a Jenkins job from "scratch"'
 		],
 		// What do you like to do when you're not coding?
 		hobbies: [
 			'play chess', 
-			'do skydiving', 
-			'do my taxes'
+			'play the bass guitar', 
+			'speedcubing'
 		]
 	}
 });
