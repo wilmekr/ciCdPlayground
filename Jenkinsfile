@@ -24,11 +24,6 @@ pipeline {
             steps {
                 sh 'yarn test:e2e'
             }
-            post {
-                success {
-                    junit '**/reports/**/*.xml'
-                }
-            }
         }
     }
 }
