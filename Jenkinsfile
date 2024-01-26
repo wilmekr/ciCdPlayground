@@ -10,7 +10,7 @@ pipeline {
             steps{
                 sh 'yarn'
                 sh 'yarn build'
-                git 'https://github.com/wilmekr/ciCdPlayground.git'
+                git branch: 'main', url: 'https://github.com/wilmekr/ciCdPlayground.git'
             }
         }
 
